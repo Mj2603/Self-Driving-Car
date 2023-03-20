@@ -159,7 +159,7 @@ def color_frame_pipeline(frames, solid_lines=True, temporal_smoothing=True):
     else:
         lane_lines = lane_lines[0]
 
-    # prepare empty mask on which lines are drawn
+    # prepare empty masks on which lines are drawn
     line_img = np.zeros(shape=(img_h, img_w))
 
     # draw lanes found
